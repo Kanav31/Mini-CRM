@@ -1,0 +1,33 @@
+/* src/components/CustomerTable.css */
+.customer-table-container {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f4f4f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.customer-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.customer-table th,
+.customer-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.customer-table th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.customer-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.customer-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
